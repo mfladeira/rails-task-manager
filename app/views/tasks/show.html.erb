@@ -1,0 +1,5 @@
+<%= link_to "Edit this task", edit_task_path(@task) %>
+<h1><%= @task.title %></h1>
+<p><%= @task.details %></p>
+<%# <%= check_box("This task is completed", @task.id, {checked: @task.completed})%>
+<%= link_to "Back", tasks_path %>
